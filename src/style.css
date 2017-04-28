@@ -1,0 +1,14 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+p a {
+  color: #004e00;
+}

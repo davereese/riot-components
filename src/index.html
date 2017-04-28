@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>REI Components</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Kameron:700|Roboto" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <rei-difference />
+    </div>
+
+    <script type="riot/tag" src="./rei-difference.tag"></script>
+    <script type="riot/tag" src="./diff-details.tag"></script>
+    <script type="riot/tag" src="./transition.tag"></script>
+    <script type="riot/tag" src="./tree.tag"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/2.6.3/riot+compiler.min.js"></script>
+    <script>
+      riot.mount('rei-difference');
+    </script>
+  </body>
+</html>
